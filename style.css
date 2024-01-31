@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul li {
+  @apply rounded py-[7px] text-[17px]
+  hover:bg-slate-400 transition-all duration-300;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  @apply bg-gray-50;
+}
